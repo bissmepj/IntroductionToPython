@@ -63,6 +63,10 @@ dave = rg.SimpleTurtle()
 dave.forward(100)
 dave.left(90)
 dave.forward(200)
+dave.right(45)
+dave.forward(50)
+dave.right(135)
+dave.forward(100)
 
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
@@ -73,11 +77,13 @@ matt.speed = 10  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
+matt.right(90)
+matt.backward(100)
 
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -91,7 +97,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -109,7 +115,25 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
-
+Phil = rg.SimpleTurtle()
+Phil.speed = 30
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(20)
+Phil.right(45)
+Phil.forward(10)
 ########################################################################
 #
 # TODO: 5.
